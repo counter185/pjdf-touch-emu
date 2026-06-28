@@ -1,9 +1,12 @@
 # pjdf-touch-emu
 This is a PS Vita plugin that emulates swipes on the rear touch pad with analog stick movements, intended for Project Diva f.
 
-Tested on a Vita 1000, would appreciate if someone tested on a PSTV.
+Tested on a Vita 1000 and PSTV ([#1](https://github.com/counter185/pjdf-touch-emu/issues/1)).
 
 ## Installation
+
+[Download latest release](https://github.com/counter185/pjdf-touch-emu/releases)
+
 Copy the plugin to your `tai` folder, then add it to `config.txt` under the game's ID. For the EU version, this will be:
 
 ```
@@ -11,9 +14,16 @@ Copy the plugin to your `tai` folder, then add it to `config.txt` under the game
 ur0:tai/divaf-touch-emu.suprx
 ```
 
+IDs for other regions:
+- `PCSB00419` (EU)
+- `PCSE00326` (US)
+- `PCSG00074` (JP)
+
 In the game, go to `Other` -> `Options` and set `Scratch Target` to either `Rear Touch Pad` or `Both`.
 
 ## Building
+
+With vitasdk installed, run these commands in the root of the repository:
 
 ```bash
 mkdir build
