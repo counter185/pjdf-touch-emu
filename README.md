@@ -18,6 +18,7 @@ IDs for other regions:
 - `PCSB00419` (EU)
 - `PCSE00326` (US)
 - `PCSG00074` (JP)
+- `MMFE21622` (MegaMix f Edition)
 
 In the game, go to `Other` -> `Options` and set `Scratch Target` to either `Rear Touch Pad` or `Both`.
 
